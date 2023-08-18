@@ -223,13 +223,15 @@ h1, h2, h3, h4, h5, h6, p{
 @media only screen and (max-width: 820px) {
     .background-clip{
         position: absolute;
-        left: -40%;
+        left: 0;
+	width: 100%;
     }
 }
 @media only screen and (max-width: 720px) {
     .background-clip{
         position: absolute;
-        left: -60%;
+        left: 0;
+	width: 100%;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -292,6 +294,7 @@ h1, h2, h3, h4, h5, h6, p{
     }
     .background-clip{
         position: absolute;
-        left: -110%;
+        left: 0;
+	width: 100%
     }
   }
